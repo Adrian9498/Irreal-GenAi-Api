@@ -7,7 +7,7 @@ export async function openaiPromptExecution(req,res){
     //Configuration of deepseek response
     let response = await execPromptOpenAI(prompt,imageUrl)
     response = await response.json();
-
+    console.log(response)
     //Response from deepseek
     let answer = response.output[0].content[0].text
 

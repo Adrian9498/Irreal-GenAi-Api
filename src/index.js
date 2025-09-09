@@ -1,4 +1,5 @@
 import express from 'express';
+import dotenv from 'dotenv'
 //import conexion from './config/database.js'
 import routes from './router/routes.js';
 import cors from 'cors';
